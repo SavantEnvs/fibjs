@@ -1,0 +1,7 @@
+POST /p?a=1&b=2 HTTP/1.1
+Host: x
+Cookie: a=1; b=2
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 7
+
+k=v&x=y

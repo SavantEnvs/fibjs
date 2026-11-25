@@ -1,0 +1,11 @@
+project: savantenvs/fibjs
+target: fibjs-url
+
+cmds:
+  # mayhem-lint: ok-image-path  (the /mayhem path is the JS driver the target READS, not an output)
+  - cmd: /mayhem/bin/Linux_x64_release/fibjs /mayhem/mayhem/drivers/url.js @@
+    timeout: 10
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fibjs-url/testsuite
