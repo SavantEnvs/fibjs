@@ -1,0 +1,1 @@
+div.c1 > p:nth-child(2) span[title^="s"], li:not(.odd), body #d1 ~ ul
