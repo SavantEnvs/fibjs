@@ -1,0 +1,3 @@
+# Build outputs (gitignored upstream; mayhem/build.sh recreates them in the image).
+/out
+/bin
